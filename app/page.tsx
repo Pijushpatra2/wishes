@@ -536,13 +536,13 @@ function Counter({ since }: { since: Date }) {
     return () => clearInterval(id);
   }, [since]);
 
-  const units = [
-    { v: t.y, l: "Years" },
-    { v: t.d, l: "Days" },
-    { v: t.h, l: "Hours" },
-    { v: t.m, l: "Min" },
-    { v: t.s, l: "Sec" },
-  ];
+const units = [
+  { v: 7, l: "Years" },
+  { v: 51, l: "Days" },
+  { v: t.h, l: "Hours" },
+  { v: t.m, l: "Min" },
+  { v: t.s, l: "Sec" },
+];
 
   return (
     <div className="flex gap-3 flex-wrap justify-center mt-6">
