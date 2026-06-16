@@ -931,7 +931,7 @@ export default function AnniversaryPage() {
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.85 }}
                 >
-                  {names.person1} &amp; {names.person2}
+                  Mi Vida (NOVIO)
                 </motion.p>
 
                 {/* Big gift */}
@@ -1056,7 +1056,7 @@ export default function AnniversaryPage() {
                 {/* Top Label */}
                 <Reveal>
                   <p className="font-sans uppercase tracking-[0.55em] text-[11px] text-rose-400/55 mb-6">
-                    One Whole Year
+                    A Love That Chose Us Twice
                   </p>
 
                   {/* Main Heading */}
@@ -1860,7 +1860,7 @@ export default function AnniversaryPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 }}
                 >
-                  Happy Togetherness!
+                  Happy Birthday!
                 </motion.h2>
 
                 <motion.p
